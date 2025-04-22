@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reporte de Notas de Alumnos</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2c3e50; }
+        h2 { color: #3498db; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .mejor { background-color: #d4edda; }
+        .peor { background-color: #f8d7da; }
+        .resumen { background-color: #e2e3e5; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Reporte de Notas de Alumnos</h1>
+    
+    <div class="resumen">
+        <h2>Resumen</h2>
+        <p><strong>Mejor nota de tarea:</strong> Juan Pérez (Nota Zona: 55.5)</p>
+        <p><strong>Mejor nota de examen:</strong> Laura Díaz (Nota Examen: 94.1)</p>
+        <p><strong>Peor promedio:</strong> Ana Martínez (Promedio: 59.95)</p>
+    </div>
+    
+    <h2>Detalle de Notas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Nota Zona</th>
+            <th>Nota Examen</th>
+            <th>Promedio</th>
+        </tr>
+        <tr class="mejor">
+            <td>Juan Pérez</td>
+            <td>55.50</td>
+            <td>90.00</td>
+            <td>72.75</td>
+        </tr>
+        <tr class="">
+            <td>María García</td>
+            <td>42.00</td>
+            <td>88.50</td>
+            <td>65.25</td>
+        </tr>
+        <tr class="">
+            <td>Carlos López</td>
+            <td>38.30</td>
+            <td>82.00</td>
+            <td>60.15</td>
+        </tr>
+        <tr class="peor">
+            <td>Ana Martínez</td>
+            <td>28.70</td>
+            <td>91.20</td>
+            <td>59.95</td>
+        </tr>
+        <tr class="">
+            <td>Luis Rodríguez</td>
+            <td>46.00</td>
+            <td>79.30</td>
+            <td>62.65</td>
+        </tr>
+        <tr class="">
+            <td>Sofía Hernández</td>
+            <td>45.50</td>
+            <td>93.70</td>
+            <td>69.60</td>
+        </tr>
+        <tr class="">
+            <td>Diego Fernández</td>
+            <td>51.20</td>
+            <td>85.80</td>
+            <td>68.50</td>
+        </tr>
+        <tr class="">
+            <td>Valentina González</td>
+            <td>39.80</td>
+            <td>87.40</td>
+            <td>63.60</td>
+        </tr>
+        <tr class="">
+            <td>Jorge Ramírez</td>
+            <td>43.50</td>
+            <td>76.80</td>
+            <td>60.15</td>
+        </tr>
+        <tr class="">
+            <td>Laura Díaz</td>
+            <td>41.00</td>
+            <td>94.10</td>
+            <td>67.55</td>
+        </tr>
+    </table>
+</body>
+</html>
